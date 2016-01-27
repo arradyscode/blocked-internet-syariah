@@ -1,0 +1,79 @@
+body{
+    background:url('images/bg.jpg');
+    height:100%;
+}
+
+.container.main {
+  margin-top:5%;
+  background: #FFF;
+  box-shadow: 1px 1px 8px #CCC;
+  border: 1px solid #E5E5E5;
+  max-width: 1000px;
+}
+
+p.indonesia {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+p.english {
+  font-size: 14px;
+  font-style: italic;
+}
+
+img.logo {
+  width: 120px;
+}
+
+ul.support {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float:right;
+}
+
+ul.support li{
+float:left;
+margin-right:5px;
+}
+
+ul.support li img {
+  width: 20px;
+}
+
+p.info {
+  font-size: 11px;
+  font-style: italic;
+  color: #666565;
+}
+
+.row.header {
+  padding: 10px 0;
+border-bottom: 1px solid #F9F9F9;
+}
+
+.row.footer {
+  padding: 20px 0;
+  box-shadow: 0px -1px 4px #CCC;
+}
+
+.row.content {
+  background: url('images/kubah.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.alert {
+  padding: 15px;
+  margin: 10px 0 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 1px 1px #ECECEC;
+}
+
+.dropdown, .dropup {
+  position: relative;
+  text-align: right;
+    margin-top: 10px;
+}
