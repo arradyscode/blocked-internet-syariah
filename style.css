@@ -1,35 +1,44 @@
-body{
-    background:url('images/bg.jpg');
-    height:100%;
+body {
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-position: right bottom;
+  font-size: 12px;
 }
-
 .container.main {
-  margin-top:5%;
   background: #FFF;
-  box-shadow: 1px 1px 8px #CCC;
-  border: 1px solid #E5E5E5;
-  max-width: 1000px;
+  border: 4px solid #FFFFFF;
+  background: url('images/kubah2.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  max-width:1000px;
 }
 
 p.indonesia {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
+  color: #FFF;
+  border-bottom: 1px solid rgba(12, 55, 125, 0.1);
+  padding-bottom: 6px;
+  margin-bottom: 7px;
 }
 
 p.english {
-  font-size: 14px;
+  font-size: 12px;
   font-style: italic;
+  color: #FFF200;
+  border-top: 1px solid rgba(1, 53, 137, 0.09);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 img.logo {
-  width: 120px;
+  width: 180px;
 }
 
 ul.support {
   list-style: none;
   padding: 0;
   margin: 0;
-  float:right;
 }
 
 ul.support li{
@@ -39,28 +48,24 @@ margin-right:5px;
 
 ul.support li img {
   width: 20px;
+  padding: 10px 0;
 }
 
-p.info {
+p.info, p.info a {
   font-size: 11px;
   font-style: italic;
-  color: #666565;
+  color: #9B9B9B;
 }
 
-.row.header {
-  padding: 10px 0;
-border-bottom: 1px solid #F9F9F9;
+.header {
+  padding: 15px 20px 10px;
+  z-index: 1;
 }
 
-.row.footer {
-  padding: 20px 0;
-  box-shadow: 0px -1px 4px #CCC;
+.footer {
 }
 
-.row.content {
-  background: url('images/kubah.png');
-  background-repeat: no-repeat;
-  background-position: right bottom;
+.content {
 }
 
 .alert {
@@ -68,12 +73,21 @@ border-bottom: 1px solid #F9F9F9;
   margin: 10px 0 20px;
   border: 1px solid transparent;
   border-radius: 4px;
-  background: rgba(255, 255, 255, 0.8);
-  box-shadow: 1px 1px 1px #ECECEC;
+  box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.35) inset;
+  background: rgba(17, 58, 137, 0.48);
 }
 
 .dropdown, .dropup {
   position: relative;
   text-align: right;
     margin-top: 10px;
+}
+
+.merah {
+  color: rgb(207, 45, 7);
+}
+
+ul.peraturan li {
+  color: #FFF;
+  padding-bottom:5px;
 }
